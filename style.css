@@ -1,0 +1,21 @@
+body {
+  text-align: center;
+  background-color: black;
+}
+img {
+  width: 800px;
+  border-width: 5px;
+  border-color: lightblue;
+  margin: 10px;
+  -webkit-box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+button {
+  font-size: 25px;
+  background-color: lightblue;
+  border-radius: 15px;
+  padding: 10px;
+  color: navy;
+  margin:50px;
+  font-family: "Arial Black", Gadget, sans-serif;
+}
