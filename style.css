@@ -3,7 +3,7 @@ body {
   background-color: black;
 }
 img {
-  width: 800px;
+  height: 800px;
   border-width: 5px;
   border-color: lightblue;
   margin: 10px;
