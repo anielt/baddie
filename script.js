@@ -12,6 +12,7 @@ function random_image() {
   console.log(array_of_images);
   array_of_images.push(imageA);
   array_of_images.push(imageB);
+  array_of_images.push(imageC);
   array_of_images.push(imageD);
   array_of_images.push(imageE);
   array_of_images.push(imageF);
