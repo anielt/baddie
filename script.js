@@ -10,6 +10,7 @@ function random_image() {
   var imageI = "https://i.imgur.com/MBe6dot.png";  
   var imageJ = "https://i.imgur.com/hVsgWFE.png";
   var imageK = "https://i.imgur.com/a7Lg0ct.png";
+  var imageL = "https://i.imgur.com/XgVSjHN.png";
 
 
 
@@ -26,6 +27,7 @@ function random_image() {
   array_of_images.push(imageI);
   array_of_images.push(imageJ);
   array_of_images.push(imageK);
+  array_of_images.push(imageL);
 
   var choice = Math.floor(Math.random() * array_of_images.length);
   document.getElementById("container").innerHTML = "<img src='" 
