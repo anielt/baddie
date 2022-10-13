@@ -7,6 +7,11 @@ function random_image() {
   var imageF = "https://i.imgur.com/wcZJxmU.png";
   var imageG = "https://i.imgur.com/T3Ny5Ro.png";
   var imageH = "https://i.imgur.com/QyoyWdW.png";
+  var imageI = "https://i.imgur.com/MBe6dot.png";  
+  var imageJ = "https://i.imgur.com/hVsgWFE.png";
+  var imageK = "https://i.imgur.com/a7Lg0ct.png";
+
+
 
   var array_of_images = new Array ();
   console.log(array_of_images);
@@ -18,6 +23,10 @@ function random_image() {
   array_of_images.push(imageF);
   array_of_images.push(imageG);
   array_of_images.push(imageH);
+  array_of_images.push(imageI);
+  array_of_images.push(imageJ);
+  array_of_images.push(imageK);
+
   var choice = Math.floor(Math.random() * array_of_images.length);
   document.getElementById("container").innerHTML = "<img src='" 
       + array_of_images[choice] + "'></img>";
